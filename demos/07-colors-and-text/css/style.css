@@ -1,0 +1,44 @@
+#first-paragraph {
+    color:blueviolet;
+    background-color:rgb(210, 190, 190);
+    font-style:italic;
+    text-align:right;
+    text-decoration:line-through
+}
+
+#second-paragraph {
+    color:#2cc894;
+    background-color:beige;
+    font-size: 33px;
+    text-decoration:underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color:antiquewhite;
+    text-align:center;
+    text-decoration:overline
+}
+
+#span1 {
+    color:blue;
+    font-weight:bold;
+    font-size:53px;
+}
+
+#span2 {
+    color:red;
+    text-decoration:line-through;
+    font-size:18px;
+}
+#span3 {
+    color:green;
+    font-style:oblique;
+    font-size:15px
+}
+
+#span4 {
+    color:#bb9198;
+    background-color:bisque;
+    font-size:60px;
+}
