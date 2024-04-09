@@ -1,0 +1,101 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+#license {
+    border:3px solid black;
+    border-radius:24px;
+    width:700px
+}
+
+#left-side {
+    border:3px solid red;
+    display:inline-block;
+    width:66%;
+}
+
+#right-side {
+
+    display:inline-block;
+    width:33px
+}
+div h4 {
+    background-color:rgb(0, 0, 146);
+    color:white;
+    text-align:center;
+    font-size:18px;
+    padding:6px;
+    font-family:sans-serif;
+}
+
+#id-and-expiration div {
+    display:inline;
+    width:100%;
+    padding-left: 35px;
+    color:rgb(0, 0, 198);
+    font-family:sans-serif;
+}
+
+#id-and-expiration span {
+    color:red;
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size:15px
+}
+
+#address {
+    border:3px solid yellow;
+    font-weight:bold;
+    font-family:sans-serif;
+}
+
+#data-left,
+#data-right {
+    display:inline-block;
+    color:rgb(0, 0, 198);
+    width:120px;
+    padding:10px;
+    font-family:sans-serif
+}
+#small-pic {
+    opacity:50%;
+}
+
+#small-pic,
+#data-fields {
+    display:inline-block;
+}
+
+#data-right {
+    padding:3px;
+}
+
+#data-left span {
+    color:red;
+    font-weight:bold;
+}
+
+#data-right span {
+    color:red;
+    font-weight:bold;
+}
+
+#signature {
+    text-align:center;
+    font-family:ms madi;
+    font-weight:bold;
+}
+
+#donor,
+#real-id {
+    display:inline-block;
+    border:3px solid purple;
+    width:150px;
+    padding:10px
+}
+
