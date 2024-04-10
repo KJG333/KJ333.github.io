@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -6,23 +7,22 @@
 
     Good luck, and have fun!
 */
-
 #license {
     border:3px solid black;
     border-radius:24px;
-    width:700px
+    width:650px;
+    background:linear-gradient(to top left, rgb(255, 141, 34), rgb(251, 223, 145));
+
 }
 
 #left-side {
-    border:3px solid red;
     display:inline-block;
-    width:66%;
+    width:60%;
 }
 
 #right-side {
 
     display:inline-block;
-    width:33px
 }
 div h4 {
     background-color:rgb(0, 0, 146);
@@ -31,12 +31,13 @@ div h4 {
     font-size:18px;
     padding:6px;
     font-family:sans-serif;
+    margin-top:-9px;
 }
 
 #id-and-expiration div {
     display:inline;
     width:100%;
-    padding-left: 35px;
+   padding-left:35px;
     color:rgb(0, 0, 198);
     font-family:sans-serif;
 }
@@ -49,7 +50,7 @@ div h4 {
 }
 
 #address {
-    border:3px solid yellow;
+
     font-weight:bold;
     font-family:sans-serif;
 }
@@ -59,8 +60,8 @@ div h4 {
     display:inline-block;
     color:rgb(0, 0, 198);
     width:120px;
-    padding:10px;
-    font-family:sans-serif
+    font-family:sans-serif;
+    padding-left:20px;
 }
 #small-pic {
     opacity:50%;
@@ -89,13 +90,61 @@ div h4 {
     text-align:center;
     font-family:ms madi;
     font-weight:bold;
+    margin-top:0px;
+    font-size:20px;
 }
 
-#donor,
-#real-id {
-    display:inline-block;
-    border:3px solid purple;
-    width:150px;
-    padding:10px
+#right-side img {
+    width:200px;
 }
 
+#id-and-expiration {
+    height:40px;
+    margin-top:-20px;
+    margin-left:-25px;
+}
+
+#content h1 {
+    margin-left:24px;
+    color:rgb(0, 0, 146);
+    font-size:51px;
+    margin-bottom:5px;
+    margin-top:18px;
+}
+
+#left-side {
+    margin-left:24px;
+}
+
+#left-side img {
+    height:80px
+}
+
+#address {
+    margin-bottom:10px;
+    margin-left:10px;
+}
+
+#donor {
+    color:red;
+    width:80px;
+    font-size:12px;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+#real-id i {
+    border-radius:90%;
+    background-color:rgba(255, 213, 0, 0.964);
+    color:white;
+    border:3px solid rgba(255, 213, 0, 0.964);
+}
+
+#donor-and-real-id div {
+    display: inline-block;
+    margin-bottom:20px;
+}
+
+#donor-and-real-id {
+    margin-left: 50px;
+}
