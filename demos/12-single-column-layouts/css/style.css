@@ -1,0 +1,31 @@
+* {
+    box-sizing:border-box;
+    border:3px solid greenyellow;
+}
+
+body {
+    margin:0px;
+    font-family: sans-serif;
+    
+}
+
+.single-column {
+    background-color: bisque;
+    width:50%;
+    min-width:500px;
+    max-width:1200px;
+    margin-left: auto;
+    margin-right:auto;
+    padding:48px;
+}
+
+.light-container {
+    background-color: greenyellow;
+    padding:48px 0px;
+}
+
+.dark-container {
+    background-color: black;
+    padding:48px 0px;
+    color: white;
+}
