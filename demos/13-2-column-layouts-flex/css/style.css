@@ -1,0 +1,45 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family:sans-serif;
+    margin:0px;
+}
+
+#two-columns {
+    display:flex;
+}
+
+#sidebar-content {
+    background-color: bisque;
+    width: 250px;
+    padding:24px;
+    border-right:2px solid burlywood;
+}
+
+#sidebar-content ul {
+    list-style-type:none;
+    padding:0px;
+}
+
+
+#sidebar-content ul a {
+    color:#111111;
+    text-decoration:none;
+}
+
+#sidebar-content ul li {
+    padding:4px 0px
+}
+
+#sidebar-content h2 {
+    border-bottom:2px solid aquamarine;
+    padding-bottom:8px;
+}
+
+#main-content {
+    background-color:aquamarine;
+    flex:1;
+    padding:48px;
+}
