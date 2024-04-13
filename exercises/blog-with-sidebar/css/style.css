@@ -1,0 +1,93 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family:sans-serif;
+    margin:0px;
+    background-color: black;
+}
+
+#grid-layout {
+    display:grid;
+    grid-template-columns:1fr 450px 250px 1fr;
+    grid-template-areas: ". content sidebar .";
+    margin:36px 0px;
+}
+
+#sidebar-content {
+    grid-area:sidebar;
+    padding:18px;
+}
+
+#sidebar-content h2 {
+    background-color:rgb(255, 166, 0);
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+    margin:0px;
+}
+
+#sidebar-content ul {
+    background-color: black;
+    border:2px solid orange;
+    margin:0px;
+    list-style-type:none;
+    padding: 0px 12px;
+    margin-bottom: 24px;
+}
+
+#main-content {
+    grid-area:content;
+    margin: 36px 0px;
+    color:orange;
+}
+
+#sidebar-content a {
+    text-decoration: none;
+    color:white;
+}
+
+#sidebar-content li {
+    padding:8px 0px;
+    border-bottom:1px solid orange;
+    margin:20px 0px;
+}
+
+#sidebar-cont li:last-child {
+    border-bottom:0px;
+}
+
+#all-stages {
+    color: white;
+}
+
+#sidebars {
+    margin-left:70px;
+}
+
+#main-content img {
+    border:3px solid white;
+}
+
+#sidebar-content img {
+    border:3px solid white;
+}
+
+#date-author {
+    text-align: right;
+}
+
+#main-content h3 {
+    color: white;
+}
+
+#sidebar-content h3 {
+    color: orange;
+    text-align: center;
+}
+
+#games {
+    color: white;
+    margin-left: 60px;   
+}
