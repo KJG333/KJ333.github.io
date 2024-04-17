@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0px;
+    font-family: sans-serif;
+    background: url(https://static.vecteezy.com/system/resources/previews/001/874/132/original/abstract-geometric-white-background-free-vector.jpg)
+}
+
+body {
+    background-color: white;
+    color: #EEEEEE;
+}
+
+h1 {
+    margin:0px 36px;
+    margin-bottom:30px;
+    color:black;
+    font-family: merienda;
+}
+
+#search {
+    border:2px solid black;
+    padding-right: 50%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    color:black;
+    
+}
+
+h1,
+#search {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 200px 40% 50%;
+}
+
+#three-columns h3 {
+    padding-bottom: 8px;
+    color: black;
+}
+
+#three-columns ul {
+    list-style-type: none;
+}
+
+#three-columns ul li {
+    padding: 4px 0px;
+}
+
+#three-columns ul a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+#column-1 {
+    padding:0px;
+}
+
+#column-1 ul {
+    border-radius:5px;
+}
+
+#main-content {
+    padding:0px;
+}
+
+#column-3 {
+    margin-right: 150px;
+    margin-left:90px;
+}
+
+
+#column-1 img {
+    border-radius:12px;
+    width:100px;
+    height:120px;
+    padding-bottom: 6px;
+}
+
+#column-1 ul a:hover {
+    background-color: orange;
+    border-radius:13px;
+}
+
+#main-content img {
+    width:600px;
+    height: 500px;
+}
+
+.seller-info {
+    font-size:14px;
+    border:2px solid gray;
+    margin-right: 8px;
+    padding: 12px 12px;
+    border-radius: 12px;
+    color: black;
+}
+
+.seller span {
+    text-decoration: none;
+    color: grey;
+}
+
+.seller {
+    margin-bottom: 4px;
+}
+
+.info {
+    text-decoration: underline;
+}
+
+#profile {
+    text-decoration: underline;
+    color: black;
+}
+
+#price {
+    color: black;
+    font-size: 25px;
+}
+
+#best-offer {
+    color: grey;
+}
+
+#condition {
+    color: black;
+}
+
+#column-3 ul {
+   padding:0px;
+}
+
+#options ul {
+    padding:12px 0px;
+    margin:0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#options ul li {
+    text-decoration: none;
+    padding:15px;    
+    display:block;
+}
+
+#buy-now {
+    background-color: orange;
+    padding:0px;
+    border-radius: 25px;
+    color: white;
+}
+
+#add {
+    border:1px solid orange;
+    margin-top:10px;
+    border-radius: 25px;
+    color: orange;
+}
+
+#offer {
+    border:1px solid orange;
+    margin-top:10px;
+    border-radius: 25px;
+    color: orange;
+}
+
+h1 span{
+    color: orange;
+}
+
