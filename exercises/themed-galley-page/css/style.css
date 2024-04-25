@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin:0px;
+    background-color: black;
+}
+
+#neon-nature {
+    max-width: 1300px;
+    margin:auto;
+    text-align: center;
+}
+
+#neon {
+    background-image: url("../images/neon-1.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;   
+}
+
+.neon-1 {
+        position: absolute;
+        top:10%;
+        left: 15%;
+}
+
+#neon h1 {
+    font-size: 5vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: rgb(255, 132, 0);
+    font-family: Impact;
+    border: 5px solid rgb(0, 255, 255);
+    padding: 5px;
+}
+
+#neon h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: yellow;
+}
+
+.neon-gallery {
+    columns:3 auto;
+    column-gap: 24px;
+}
+
+.neon-gallery img {
+    width:100%;
+    margin-bottom: 24px;
+    margin-top: 20%;
+}
