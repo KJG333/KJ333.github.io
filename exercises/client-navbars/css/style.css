@@ -91,8 +91,23 @@ body {
     margin: 0px auto;
 }
 
+#navbar-top {
+    background-color: black;
+    padding: 10px;
+}
+
+#navbar-top a {
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+    padding: 24px;
+}
+
 #navbar-middle {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #ffc800);
+}
+
+#navbar-middle h1 {
+    color: white;
 }
 
 #navbar-middle .content-column {
@@ -115,19 +130,20 @@ body {
     width: 150px;
 }
 
-#navbar-top .cta-buttom {
+#navbar-middle .cta-button {
     background-color: white;
-    color: green;
+    color: rgb(0, 0, 0);
     border-radius: 36px;
-    padding: 16px 24px;
+    padding: 8px 24px;
     font-size: 20px;
     font-weight: bold;
     min-width: 150px;
     text-align: center;
+    margin-right: 2px;
 }
 
 #navbar-bottom {
-    background: linear-gradient(to bottom, yellowgreen, olive);
+    background-color:black;
 }
 
 #navbar-bottom .content-column {
@@ -137,21 +153,12 @@ body {
 
 #navbar-bottom a {
     text-decoration: none;
-    color: white;
+    color: rgb(252, 197, 0);
     padding: 12px 0px;
 }
-
-/*
-    Layout setup and configuration
-*/
 #layout {
     width: 600px;
     margin: 48px auto;
     font-size: 24px;
-    /* 
-        artificially lengthening page to
-        enable scrolling to test the 
-        sticky navbar
-    */
     height: 150vh;
 }
