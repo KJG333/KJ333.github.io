@@ -214,12 +214,12 @@ a {
 
 @media screen and (max-width: 768px) {
     #nav h2 {
-        font-size: 10px;
+        font-size: 20px;
         margin:0px
     }
 
     #nav-links {
-        font-size:10px;
+        font-size:15px;
         flex-direction: column;
         align-items: center;
     }
@@ -242,4 +242,14 @@ a {
     #hero h3 {
         font-size: 30px;
     }
-}
+
+    .three-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .two-cards {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
