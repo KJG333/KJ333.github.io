@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+#card-1 {
+    background: url(../images/audi.jpg) 50%;
+}
+
+#card-1 #content {
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px); 
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s; 
+}
+
+#card-1:hover #content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px); 
+}
+
+#card-2 {
+    background: url(../images/ferarri\ 458\ italia.jpg) 50%;
+}
+
+#card-2 #content {
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px); 
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s; 
+}
+
+#card-2:hover #content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px); 
+}
+
+#card-3 {
+    background: url(../images/mclaren\ aurtura.jpg) 50%;
+}
+
+#card-3 #content {
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px); 
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s; 
+}
+
+#card-3:hover #content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px); 
+}
+
+#card-4 {
+    background: url(../images/mercedes\ benz\ iaa.jpg) 50%;
+}
+
+#card-4 #content {
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px); 
+    transition:
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s; 
+}
+
+#card-4:hover #content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px); 
+}
+
+#card-5 {
+    background: url(../images/nyc.jpg) 50%;
+}
+
+#card-5 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card-5:hover a {
+    background-color: rgb(61, 7, 240);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card-6 {
+    background: url(../images/philly.jpg);
+}
+
+#card-6 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card-6:hover a {
+    background-color: rgb(61, 7, 240);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card-7 {
+    background: url(../images/sanfran.jpg) 60%;
+}
+
+#card-7 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card-7:hover a {
+    background-color: rgb(61, 7, 240);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card-8 {
+    background: url(../images/boston.jpg) 10%;
+}
+
+#card-8 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card-8:hover a {
+    background-color: rgb(61, 7, 240);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card-9:hover {
+    background-color: lightcyan;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    border:5px solid red;
+}
+
+#card-9 {
+    background: url(../images/red.jpg);
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card-9 p {
+    color: white;
+}
+
+#card-9 h2 {
+    color: white;
+}
+
+#card-10:hover {
+    background-color: lightcyan;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    border:5px solid blue;
+}
+
+#card-10 {
+    background: url(../images/blue.jpg);
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card-10 p {
+    color: white;
+}
+
+#card-10 h2 {
+    color: white;
+}
+
+#card-11:hover {
+    background-color: lightcyan;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    border:5px solid yellow;
+}
+
+#card-11 {
+    background: url(../images/yellow.jpg) 199%;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card-11 p {
+    color: white;
+}
+
+#card-11 h2 {
+    color: white;
+}
+
+#card-12:hover {
+    background-color: lightcyan;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    border:5px solid green;
+}
+
+#card-12 {
+    background: url(../images/green.jpg) 90%;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card-12 p {
+    color: white;
+}
+
+#card-12 h2 {
+    color: white;
+}
