@@ -24,7 +24,7 @@ body {
 
 #navbar a {
     text-decoration: none;
-    color: rgb(52, 0, 136);
+    color: rgb(0, 0, 0);
     padding: 24px;
     font-weight: bold;
     font-size: 30px;
@@ -107,7 +107,7 @@ body {
 
 #card-section {
     background-color: #000000;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     padding: 48px;
 }
 
@@ -169,4 +169,87 @@ body {
 
 .card-home img {
     width: 200px;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    padding: 48px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
+    border: 10px solid #333333;
+}
+
+.basic-grid-gallery img {
+    width: 100%;
+}
+
+#menu-items h1 {
+    padding:24px;
+}
+
+#menu-items ul {
+    padding-bottom: 24px;
+    max-width: 1800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 3px solid black;
+}
+
+#menu-items p {
+    font-size: 20px;
+}
+
+#featured-dish {
+    text-align: center;
+    font-size:40px;
 }
